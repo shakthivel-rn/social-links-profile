@@ -1,0 +1,124 @@
+:root {
+    --grey-900: #141414;
+    --grey-800: #1F1F1F;
+    --grey-700: #333333;
+    --green: #C4F82A;
+    --white: #FFFFFF;
+
+    --spacing-500: 40px;
+    --spacing-300: 24px;
+    --spacing-200: 16px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--grey-900);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 327px;
+    height: 579px;
+    background-color: var(--grey-800);
+    padding: var(--spacing-500);
+    border-radius: var(--spacing-150);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: var(--spacing-300);
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 456px;
+        height: 611px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .card {
+        width: 384px;
+        height: 611px;
+    }
+}
+
+.profile-pic {
+    width: 88px;
+    height: 88px;
+    border-radius: 999px;
+}
+
+.name-location {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-50);
+    text-align: center;
+}
+
+.title {
+    color: var(--white);
+}
+
+.description {
+    color: var(--green);
+}
+
+.bio {
+    color: var(--white);
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-200);
+}
+
+.button {
+    border: none;
+    background-color: var(--grey-700);
+    color: var(--white);
+    padding: var(--spacing-150);
+    border-radius: var(--spacing-100);
+    cursor: pointer;
+    transition: background-color 1s ease-out, color 0.1s ease-out;
+}
+
+.button:hover {
+    background-color: var(--green);
+    color: var(--grey-700);
+    transition: background-color 0.1s ease-in, color 0.1s ease-in;
+}
+
+.text {
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.text-preset1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-preset2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text-preset2-bold {
+    font-size: 14px;
+    font-weight: 700;
+}
