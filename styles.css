@@ -88,6 +88,7 @@ body {
 }
 
 .button {
+    height: 45px;
     border: none;
     background-color: var(--grey-700);
     color: var(--white);
