@@ -22,8 +22,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/shakthivel-rn/social-links-profile)
-- Live Site URL: [Add live site URL here](https://shakthivel-rn.github.io/social-links-profile/)
+- Solution URL: [Click Me](https://github.com/shakthivel-rn/social-links-profile)
+- Live Site URL: [Click Me](https://shakthivel-rn.github.io/social-links-profile/)
 
 ## My process
 
